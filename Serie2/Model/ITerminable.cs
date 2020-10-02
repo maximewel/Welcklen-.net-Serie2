@@ -6,6 +6,10 @@ namespace Serie2.controler
 {
     interface ITerminable
     {
-        public Boolean isFinished();
+        /// <summary>
+        /// Query wether the game is finished
+        /// </summary>
+        /// <returns>True if the game is finished</returns>
+        public Boolean IsFinished();
     }
 }
