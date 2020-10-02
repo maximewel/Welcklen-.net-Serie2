@@ -119,7 +119,7 @@ namespace Serie2.controler
             string[] parsed = input.Trim('<', '>').Split(" ");
             if (parsed.Length != 3)
             {
-                boardView.Display("Expect exactly 3 instructions in your move :-(");
+                boardView.Display("Please enter your move as <symbole x y> please !");
                 return;
             }
             string symb = parsed[0];
